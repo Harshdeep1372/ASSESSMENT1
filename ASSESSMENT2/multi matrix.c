@@ -1,3 +1,6 @@
+/*matrix multiplication make sure that the number columns of the first 
+matrix and the number of rows of the second must be the same*/
+
 #include<stdio.h>
 
 main()
@@ -24,7 +27,7 @@ for(j=0;j<c;j++)
 
 {
 
-scanf("%d",&a[i][j]);
+scanf("%d",&a[i][j]);//scan user value matrix 1st
 
 }
 
@@ -40,7 +43,7 @@ for(j=0;j<c;j++)
 
 {
 
-scanf("%d",&b[i][j]);
+scanf("%d",&b[i][j]);//scan user value matrix 2nd
 
 }
 
@@ -80,7 +83,7 @@ for(j=0;j<c;j++)
 
 {
 
-printf("%d\t",mul[i][j]);
+printf("%d\t",mul[i][j]);//Printing the multiplication of matrix
 
 }
 
